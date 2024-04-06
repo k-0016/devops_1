@@ -8,3 +8,10 @@ To get started with setting up your own CI/CD pipeline, follow these steps:
 2. **Set Up GitHub Actions**: Configure GitHub Actions workflow file (e.g., `.github/workflows/main.yml`) to define the CI/CD pipeline. Make sure to separate jobs and use dependencies (`needs`) to ensure the test job completes before the build and push job.
 
 3. **Test, Build, and Push to Docker Hub**: Commit your changes to the repository and observe GitHub Actions running the defined workflow. Once the workflow completes successfully, verify that the Docker image is pushed to your Docker Hub account.
+
+## Screenshots
+
+### Docker Hub Image
+![Docker Hub Image](https://github.com/k-0016/devops_1/blob/main/Screenshot%20(356).png?raw=true)
+
+![Docker Hub Image](https://github.com/k-0016/devops_1/blob/main/Screenshot%20(357).png?raw=true)
